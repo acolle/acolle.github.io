@@ -1,0 +1,28 @@
+header {
+  margin-bottom: 1rem;
+}
+
+.navBarContainer {
+  margin: 0 auto;
+  width: 800px;
+  padding: 0.55rem 1.0875rem;
+  border-bottom: 1px solid lightgrey;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navBarContainer * {
+  color: #515151;
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+.navBarContainer *:hover {
+  color: #181818;
+}

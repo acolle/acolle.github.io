@@ -615,6 +615,19 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
+
+/* Custom CSS */
+.content {
+  display: flex;
+  padding: 0 1.0875rem;
+}
+
+.content main {
+  flex-grow: 2;
+  padding: 0.6rem;
+}
+
+/* End Custom CSS */
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;

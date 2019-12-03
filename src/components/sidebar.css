@@ -1,0 +1,9 @@
+.container {
+  /* border: 1px solid red; */
+  width: 16rem;
+  padding: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
