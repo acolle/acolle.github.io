@@ -1,0 +1,77 @@
+{
+  "name": "Anthony Colle",
+  "position": "Full Stack Developer",
+  "location": "Dublin",
+  "social": {
+    "email": {
+      "address": "anthonycolle84@gmail.com",
+      "logo": "./github.png"
+    },
+    "github": {
+      "address": "https://github.com/acolle/",
+      "logo": "./email.png"
+    }
+  },
+  "profile": [
+    "Enthusiastic Software Developer with a background in Digital Marketing, including SEO, UX and Big Data analysis.",
+    "Holding a Higher Diploma in Computer Science in Software Development (1st Class Honours) at National College of Ireland.",
+    "In-depth knowledge of the Modern Web Full Stack, including React.js, Angular, Node.js, Express.js and MongoDB.",
+    "Strong skills in Java, RESTful APIs architecture, HTML/CSS/JavaScript (+TypeScript), SQL, PL/SQL, UNIX Scripting, Python, R and version control tool Git."
+  ],
+  "skills": [
+    {
+      "name": "React.js",
+      "description": "Designed and developed user-friendly Single Page Applications using the React library and tools like Redux and Client Routing, as well as the latest features such as Hooks and Context."
+    },
+    {
+      "name": "Node.js, Express.js & MongoDB",
+      "description": "Developed multiple applications using this stack including a secure REST API for CRUD operations, a Weather Forecast application using a 3rd Party API, and a live Web Chat application implementing WebSocket."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Higher Diploma in Computer Sciences (Software Development)",
+      "institute": "National College of Irelande (NCI)",
+      "location": "Dublin, Ireland",
+      "year": "2018",
+      "grade": "1st Class Honours",
+      "modules": "Software Development (95%), Introduction to Databases (83%), Web Design (92%), Architecture, OS & Network (80%), Object-Oriented Software Engineering (78%), Data Structures & Algorithms (74%), Web Services & API Development (67%), Server Side Development (70%) and Advanced Programming (84%), Project (74%)"
+    },
+    {
+      "degree": "MSc. in Management (Digital Marketing)",
+      "institute": "Dublin City University Business School (DCUBS)",
+      "location": "Dublin, Ireland",
+      "year": "2015/2016",
+      "grade": "2nd Class Honours",
+      "modules": "blabla"
+    },
+    {
+      "degree": "MSc. in Management & Marketing",
+      "institute": "IAE Nancy School of Management",
+      "year": "2014/2015",
+      "location": "Nancy, France",
+      "grade": "blabla",
+      "modules": "blabla"
+    }
+  ],
+  "work": [
+    {
+      "position": "Software Engineer",
+      "company": "Wipro",
+      "year": "2019-",
+      "location": "Dublin, Ireland"
+    },
+    {
+      "position": "Team Lead",
+      "company": "Accenture @ Google",
+      "year": "2018/2019",
+      "location": "Dublin, Ireland"
+    },
+    {
+      "position": "Digital Marketing Research Consultant",
+      "company": "Accenture @ Google",
+      "year": "2017/2018",
+      "location": "Dublin, Ireland"
+    }
+  ]
+}
