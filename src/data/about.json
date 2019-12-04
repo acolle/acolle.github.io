@@ -13,19 +13,48 @@
     }
   },
   "profile": [
-    "Enthusiastic Software Developer with a background in Digital Marketing, including SEO, UX and Big Data analysis.",
-    "Holding a Higher Diploma in Computer Science in Software Development (1st Class Honours) at National College of Ireland.",
-    "In-depth knowledge of the Modern Web Full Stack, including React.js, Angular, Node.js, Express.js and MongoDB.",
-    "Strong skills in Java, RESTful APIs architecture, HTML/CSS/JavaScript (+TypeScript), SQL, PL/SQL, UNIX Scripting, Python, R and version control tool Git."
+    "Enthusiastic and curious Software Developer with a background in Digital Marketing, including SEO, UX and Big Data analysis.",
+    "Holding a Higher Diploma in Computer Science in Software Development (1st Class Honours) at National College of Ireland, as well as a Master’s in Management (Digital Marketing) from DCU Business School.",
+    "In-depth knowledge of the Modern Web Full Stack, including React.js, Angular, Node.js, Express.js and MongoDB. Enjoys building dynamic websites and applications from development to production.",
+    "Strong skills in Java, RESTful APIs architecture, HTML/CSS/JavaScript, TypeScript, RDMS, SQL, PL/SQL, UNIX Scripting, Python, R and version control tool Git.",
+    "Excellent communicator & collaborator, familiar with Agile methodologies, and proven record of successfully building & delivering enterprise level products & applications."
   ],
   "skills": [
     {
       "name": "React.js",
-      "description": "Designed and developed user-friendly Single Page Applications using the React library and tools like Redux and Client Routing, as well as the latest features such as Hooks and Context."
+      "description": "Designed and developed multiple modern applications with React, using the latest APIs such as Hooks and Context. In-depth understanding of props, state management and lifecycle methods."
+    },
+    {
+      "name": "Angular",
+      "description": "Developed several CRUD apps using the Angular framework. Integrated services, authentication guards and request interceptors. Comfortable with Typescript."
     },
     {
       "name": "Node.js, Express.js & MongoDB",
-      "description": "Developed multiple applications using this stack including a secure REST API for CRUD operations, a Weather Forecast application using a 3rd Party API, and a live Web Chat application implementing WebSocket."
+      "description": "Worked on multiple applications using this stack with either React or Angular to develop the front-end, or with template engines such as Pug, Mustache or EJS. Projects include secure REST APIs for CRUD operations with both JWT and session authentication, integration of 3rd Party APIs such as Stripe for payment processing, and implementation of the WebSocket protocol to develop real-time applications."
+    },
+    {
+      "name": "JavaScript",
+      "description": "Strong skills in JavaScript, both inside and outside the browser, and in asynchronous and event-driven programming. Experienced with the main ES6, ES7 & ES8 features, such as arrow functions, new loops iterators, promises, async/await constructions & destructuring patterns."
+    },
+    {
+      "name": "Java",
+      "description": "Worked on multiple projects using Servlets, advanced linear and non-linear data structures, sorting and searching algorithms and RESTful APIs using JAX-RS and Hibernate for data persistence. Good fundamentals of Object-Oriented and algorithm design, problem solving & complexity analysis."
+    },
+    {
+      "name": "HTML/CSS",
+      "description": "Great knowledge of the structure and workflow of websites and web applications. Thriving for good design, and ensuring fully responsiveness of the UI. Familiar with CSS animations, SCSS/SASS & BEM syntax. "
+    },
+    {
+      "name": "Python",
+      "description": "Learnt prior any formal education, mostly for Statistics and Machine Learning (ML) purposes. Used for data analysis and advanced ML algorithms (regression, classification, & reinforcement)."
+    },
+    {
+      "name": "RDBMS, SQL & PL/SQL",
+      "description": "In-depth understanding of the relational model of data, including Primary and Foreign keys, normalisation, stored procedure and triggers, to ensure the integrity of business data at all times. Ability to design, create and query databases using advanced SQL queries and PL/SQL scripts."
+    },
+    {
+      "name": "UNIX Scripting",
+      "description": "Experienced with the Unix shell for common tasks and ability to write intermediate scripts."
     }
   ],
   "education": [
