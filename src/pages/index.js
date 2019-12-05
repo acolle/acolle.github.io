@@ -21,14 +21,14 @@ const IndexPage = () => {
   return (
     <Layout>
       <SEO title="About" />
-      <h3>About Me</h3>
+      <h4>About Me</h4>
       <ul>
       {data.dataJson.profile.map((element, index) => (
         <li key={index + 1} className={aboutStyle.list}>{element}</li>
       ))}
       </ul>
 
-      <h3>Skills</h3>
+      <h4>Skills</h4>
       <ul>
       {data.dataJson.skills.map((element, index) => (
         <li key={index + 1} className={aboutStyle.list}><b>{element.name}</b> - {element.description}</li>

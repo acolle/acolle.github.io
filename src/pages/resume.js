@@ -22,6 +22,7 @@ const Resume = () => {
           year
           location
           position
+          functions
         }
       }
     }
@@ -30,15 +31,14 @@ const Resume = () => {
   return (
     <Layout>
       <SEO title="Resume" />
-      <h3>Resume</h3>
       <h4>Professional Experience</h4>
-      {data.dataJson.work.map((workElement) => (
-        <WorkComponent data={workElement}/>
+      {data.dataJson.work.map((workElement, index) => (
+        <WorkComponent key={index + 1} data={workElement}/>
       ))}
 
       <h4>Education</h4>
-      {data.dataJson.education.map((educationElement) => (
-        <EducationComponent data={educationElement}/>
+      {data.dataJson.education.map((educationElement, index) => (
+        <EducationComponent key={index + 1} data={educationElement}/>
       ))}
     </Layout>
   )

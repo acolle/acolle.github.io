@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "../components/image";
 import sidebarStyle from "../styles/sidebar.module.css";
 import { useStaticQuery, graphql } from "gatsby";
 
@@ -25,12 +24,18 @@ const Sidebar = () => {
 
   return (
     <div className={sidebarStyle.container}>
-      <Image name="gatsby-astronaut.png"/>
-      <h4>{data.dataJson.name}</h4>
+      <img src="/image.jpg" alt="self" className={sidebarStyle.image}/>
       <div className={sidebarStyle.information}>
+        <b>{data.dataJson.name}</b>
+        <br/>
         {data.dataJson.position}
         <br/>
         {data.dataJson.location}
+        <br/>
+        <div className={sidebarStyle.contact}>
+          <a href={`mailto:${data.dataJson.social.email.address}`} target="_blank" rel="noopener noreferrer"><img src="/email.png" alt="email" className={sidebarStyle.logo}/></a>
+          <a href={data.dataJson.social.github.address} target="_blank" rel="noopener noreferrer"><img src="/github.png" alt="github" className={sidebarStyle.logo}/></a>
+        </div>
       </div>
     </div>
   )
