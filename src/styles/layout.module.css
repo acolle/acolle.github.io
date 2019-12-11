@@ -629,10 +629,15 @@ pre tt:after {
   flex-grow: 2;
   padding: 0.6rem;
 }
-
 /* End Custom CSS */
+
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
+  }
+
+  .content {
+    flex-direction: column;
+    align-items: center;
   }
 }

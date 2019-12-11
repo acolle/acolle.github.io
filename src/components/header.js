@@ -10,10 +10,10 @@ const Header = () => {
   return (
     <header>
       <div className={headerStyle.navBarContainer}>
-        <Link to="/">About</Link>
-        <Link to="/resume/">Resume</Link>
-        <Link to="/projects/">Projects</Link>
-        {finished && <Link to="/art/">Generative Art</Link>}
+        <Link to="/" activeStyle={{ fontWeight: 600 }}>About</Link>
+        <Link to="/resume" activeStyle={{ fontWeight: 600 }}>Resume</Link>
+        {finished && <Link to="/projects">Projects</Link>}
+        {finished && <Link to="/art">Generative Art</Link>}
       </div>
     </header>
   )

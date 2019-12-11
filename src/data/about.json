@@ -60,7 +60,7 @@
   "education": [
     {
       "degree": "Higher Diploma in Computer Sciences (Software Development)",
-      "institute": "National College of Irelande (NCI)",
+      "institute": "National College of Ireland (NCI)",
       "location": "Dublin, Ireland",
       "year": "2018",
       "grade": "1st Class Honours",
@@ -107,13 +107,13 @@
       "year": "2019-Present",
       "location": "Dublin, Ireland",
       "functions": [
-        "Contracted with Allied Irish Bank (AIB) on data mapping and validation for regulatory reports on credit institutions to be submitted to the Central Bank of Ireland (CBI) and to the European Central Bank (ECB).",
-        "Designed and developed an internal web applications for Project Managers to monitor all projects with AIB. Used React and Material UI for the frontend and Spring Boot for the backend"
+        "Worked with Allied Irish Banks (AIB) as an ETL developer, mapping and validating data for regulatory reports on credit institutions to be submitted to the Central Bank of Ireland (CBI) and to the European Central Bank (ECB).",
+        "Designed and developed a React/Spring web application for Wipro Project Managers to monitor all ongoing projects with AIB."
       ]
     },
     {
       "position": "Digital Marketing Research Workflow Lead",
-      "company": "Accenture @ Google",
+      "company": "Accenture for Google",
       "year": "2018/19",
       "location": "Dublin, Ireland",
       "functions": [
@@ -125,7 +125,7 @@
     },
     {
       "position": "Digital Marketing Research Consultant",
-      "company": "Accenture @ Google",
+      "company": "Accenture for Google",
       "year": "2017/18",
       "location": "Dublin, Ireland",
       "functions": [

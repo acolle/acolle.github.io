@@ -23,9 +23,6 @@ const Layout = ({ children }) => {
         <Sidebar />
         <main>{children}</main>
       </div>
-      <footer style={{textAlign: `center`, fontSize: `0.8rem`}}>
-        © {new Date().getFullYear()}, Built with {` `}<a href="https://www.gatsbyjs.org">Gatsby</a>
-      </footer>
     </>
   )
 }
