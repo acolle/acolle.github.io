@@ -162,7 +162,7 @@
       "tags": ["node.js", "socket.io", "mustache"],
       "urls": [
         { "name": "github", "value": "https://github.com/acolle/node-v3-chat-app/" },
-        { "name": "website", "value": "" }
+        { "name": "website", "value": "https://acolle-node-v3-chat-app.herokuapp.com/" }
       ]
     },
     {
