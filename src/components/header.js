@@ -12,8 +12,8 @@ const Header = () => {
       <div className={headerStyle.navBarContainer}>
         <Link to="/" activeStyle={{ fontWeight: 600 }}>About</Link>
         <Link to="/resume" activeStyle={{ fontWeight: 600 }}>Resume</Link>
-        {finished && <Link to="/projects">Projects</Link>}
-        {finished && <Link to="/art">Generative Art</Link>}
+        <Link to="/projects" activeStyle={{ fontWeight: 600 }}>Projects</Link>
+        {finished && <Link to="/art" activeStyle={{ fontWeight: 600 }}>Generative Art</Link>}
       </div>
     </header>
   )
