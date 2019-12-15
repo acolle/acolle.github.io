@@ -1,12 +1,13 @@
 .container {
   /* border: 1px solid red; */
-  width: 16rem;
-  min-width: 16rem;
+  width: 12rem;
+  min-width: 12rem;
   padding: 0.4rem 2rem;
 
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  align-items: center;
 }
 
 .image {
