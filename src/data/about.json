@@ -192,5 +192,15 @@
         { "name": "website", "value": "" }
       ]
     }
+    ,
+    {
+      "name": "Virtual Rendering",
+      "description": "A React implementation of Virtual Rendering to prevent slow and laggy scrolling of large lists. Virtual Rendering is implemented using react-virtualized and avatars are provided by DiceBear Avatars.",
+      "tags": ["react"],
+      "urls": [
+        { "name": "github", "value": "https://github.com/acolle/virtual-rendering-react" },
+        { "name": "website", "value": "" }
+      ]
+    }
   ]
 }
