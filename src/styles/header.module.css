@@ -4,7 +4,7 @@ header {
 
 .navBarContainer {
   margin: 0 auto;
-  width: 80%;
+  width: calc(80vw - 8vw);
   padding: 0.55rem 1.0875rem;
   border-bottom: 1px solid lightgrey;
 
@@ -25,4 +25,10 @@ header {
 
 .navBarContainer *:hover {
   color: #181818;
+}
+
+@media only screen and (max-width: 480px) {
+  .navBarContainer {
+    justify-content: space-between;
+  }
 }

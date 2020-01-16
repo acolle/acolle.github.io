@@ -1,17 +1,14 @@
 .container {
-  /* border: 1px solid red; */
-  width: 12rem;
-  min-width: 12rem;
-  padding: 0.4rem 2rem;
+  padding: 1.2rem 0.2rem;
+  width: 20vw;
 
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
   align-items: center;
 }
 
 .image {
-  width: 9rem;
+  width: 10vw;
   margin: 0;
 }
 
@@ -34,11 +31,11 @@
 
 @media only screen and (max-width: 480px) {
   .container {
-    padding: 0 2rem;
-    align-items: center;
+    width: 100vw;
+    padding: 1rem;
   }
 
   .image {
-    width: 8rem;
+    width: 25vw;
   }
 }
