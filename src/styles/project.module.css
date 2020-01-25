@@ -1,14 +1,14 @@
 .projects {
   display: flex;
   align-items: stretch;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   flex-wrap: wrap;
 }
 
 .projectContainer {
-  width: 280px;
-  padding: 12px;
-  margin-bottom: 12px;
+  width: 20vw;
+  padding: 18px 12px;
+  margin: 0 12px 12px 0;
   background-color: rgba(230, 236, 239, 0.2);
   border: 1px solid lightgrey;
   border-radius: 8px;

@@ -14,15 +14,16 @@
   },
   "profile": [
     "Enthusiastic and curious Software Developer with a background in Digital Marketing, including SEO, UX and Big Data analysis.",
-    "Holding a Higher Diploma in Computer Science in Software Development (1st Class Honours) at National College of Ireland, as well as a Master’s in Management (Digital Marketing) from DCU Business School.",
-    "In-depth knowledge of the Modern Web Full Stack, including React.js, Angular, Node.js, Express.js and MongoDB. Enjoys building dynamic websites and applications from development to production.",
-    "Strong skills in Java, RESTful APIs architecture, HTML/CSS/JavaScript, TypeScript, RDMS, SQL, PL/SQL, UNIX Scripting, Python, R and version control tool Git.",
+    "I hold a Higher Diploma in Computer Science in Software Development (1st Class Honours) from National College of Ireland, as well as a Master’s in Management (specialised in Digital Marketing) from DCU Business School.",
+    "The MERN stack is my go-to stack for prototyping and developing, that is, React.js, Node.js with Express.js and MongoDB.",
+    "Other technologies I work with include Angular, Java, RESTful APIs, relational databases with MySQL, Bash Scripting, Ansible, PL/SQL, Python, R and version control tool Git.",
+    "On my spare time, I enjoy creative coding with tools like Processing or p5js, and I'm currently diving into C++ to be exposed to a lower level language, and get a better understanding of computer graphics.",
     "Excellent communicator & collaborator, familiar with Agile methodologies, and proven record of successfully building & delivering enterprise level products & applications."
   ],
   "skills": [
     {
       "name": "React.js",
-      "description": "Designed and developed multiple modern applications with React, using the latest APIs such as Hooks and Context. In-depth understanding of props, state management and lifecycle methods."
+      "description": "Designed and developed multiple modern applications with React.js, using the latest APIs such as Hooks and Context. In-depth understanding of props, state management, lifecycle methods and advanced concepts like Higher-Order Components or Props Rendering."
     },
     {
       "name": "Angular",
@@ -38,23 +39,23 @@
     },
     {
       "name": "Java",
-      "description": "Worked on multiple projects using Servlets, advanced linear and non-linear data structures, sorting and searching algorithms and RESTful APIs using JAX-RS and Hibernate for data persistence. Good fundamentals of Object-Oriented and algorithm design, problem solving & complexity analysis."
+      "description": "Worked on multiple projects using Servlets, advanced data structures, sorting and searching algorithms and RESTful APIs using JAX-RS and Hibernate for data persistence. Good fundamentals of Object-Oriented and algorithm design, problem solving & complexity analysis."
     },
     {
       "name": "HTML/CSS",
-      "description": "Great knowledge of the structure and workflow of websites and web applications. Thriving for good design, and ensuring fully responsiveness of the UI. Familiar with CSS animations, SCSS/SASS & BEM syntax. "
+      "description": "Great knowledge of the structure and workflow of websites and web applications. Thriving for good design, and ensuring fully responsiveness of the UI. Familiar with CSS animations, SCSS/SASS & BEM syntax."
     },
     {
       "name": "Python",
-      "description": "Learnt prior any formal education, mostly for Statistics and Machine Learning (ML) purposes. Used for data analysis and advanced ML algorithms (regression, classification, & reinforcement)."
+      "description": "Python was the fist language I learnt when I started programming. I used it mostly for Statistical Analysis and training Machine Learning models (regression, classification, & reinforcement)."
+    },
+    {
+      "name": "Linux Server Administration & Bash Scripting",
+      "description": "Experience with administrating Linux servers, and writing shell scripts."
     },
     {
       "name": "RDBMS, SQL & PL/SQL",
-      "description": "In-depth understanding of the relational model of data, including Primary and Foreign keys, normalisation, stored procedure and triggers, to ensure the integrity of business data at all times. Ability to design, create and query databases using advanced SQL queries and PL/SQL scripts."
-    },
-    {
-      "name": "UNIX Scripting",
-      "description": "Experienced with the Unix shell for common tasks and ability to write intermediate scripts."
+      "description": "In-depth understanding of the relational model of datasets, including Primary and Foreign keys, normalisation, stored procedure and triggers, to ensure the integrity of business data at all times. Ability to design, create and query databases using advanced SQL queries and PL/SQL scripts."
     }
   ],
   "education": [
@@ -116,7 +117,8 @@
       "location": "Dublin, Ireland",
       "functions": [
         "Worked with Allied Irish Banks (AIB) as an ETL developer, mapping and validating data for regulatory reports on credit institutions to be submitted to the Central Bank of Ireland (CBI) and to the European Central Bank (ECB).",
-        "Designed and developed a React/Spring web application for Wipro Project Managers to monitor all ongoing projects with AIB."
+        "Designed and developed a React/Spring web application for Wipro Project Managers to monitor all ongoing projects with AIB.",
+        "Currently working as a System Administrator on AIB Linux servers, deploying new applications on them, and supporting them in case of failure."
       ]
     },
     {
@@ -199,7 +201,7 @@
       "tags": ["react"],
       "urls": [
         { "name": "github", "value": "https://github.com/acolle/virtual-rendering-react" },
-        { "name": "website", "value": "" }
+        { "name": "website", "value": "https://virtual-rendering-react.herokuapp.com/" }
       ]
     }
   ]

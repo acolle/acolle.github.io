@@ -3,8 +3,10 @@ import projectStyle from "../styles/project.module.css";
 
 const ProjectComponent = ({ data }) => (
   <div className={projectStyle.projectContainer}>
-    <h5>{data.name}</h5>
-    <p>{data.description}</p>
+    <div>
+      <h5>{data.name}</h5>
+      <p>{data.description}</p>
+    </div>
     <div className={projectStyle.urlContainer}>
       {data.urls.map((url) => {
         if (url.value !== '') {
