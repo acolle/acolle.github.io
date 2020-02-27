@@ -1,10 +1,15 @@
 import React from "react";
-import projectStyle from "../styles/project.module.css";
+import projectStyle from "../styles/project.module.scss";
 
 const ProjectComponent = ({ data }) => (
   <div className={projectStyle.projectContainer}>
     <div>
       <h5>{data.name}</h5>
+      {/*
+    <div className={projectStyle.tags}>
+      {data.tags.map((tag) => <span className={projectStyle.tag}>{tag} </span>)}
+    </div>
+        */}
       <p>{data.description}</p>
     </div>
     <div className={projectStyle.urlContainer}>

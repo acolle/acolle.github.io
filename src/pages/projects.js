@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../components/layout";
 import ProjectComponent from "../components/projectComponent";
-import projectStyle from "../styles/project.module.css";
+import projectStyle from "../styles/project.module.scss";
 import SEO from "../components/seo";
 import { useStaticQuery, graphql } from "gatsby";
 

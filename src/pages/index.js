@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import aboutStyle from "../styles/about.module.css";
+import aboutStyle from "../styles/about.module.scss";
 import { useStaticQuery, graphql } from 'gatsby';
 
 const IndexPage = () => {

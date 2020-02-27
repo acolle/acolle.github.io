@@ -1,5 +1,5 @@
 import React from "react";
-// import resumeStyle from "../styles/resume.module.css";
+// import resumeStyle from "../styles/resume.module.scss";
 
 const WorkComponent = ({ data }) => (
   <div>

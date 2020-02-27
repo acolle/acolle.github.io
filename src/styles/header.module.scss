@@ -1,12 +1,12 @@
-header {
-  margin-bottom: 1rem;
-}
-
 .navBarContainer {
   margin: 0 auto;
   width: calc(80vw - 8vw);
   padding: 0.55rem 1.0875rem;
   border-bottom: 1px solid lightgrey;
+
+  // background-color: #f6f9fc;
+  // border-bottom: 1px solid rgba(179, 198, 230, 0.6);
+  // box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
 
   display: flex;
   justify-content: space-around;

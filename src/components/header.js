@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 // import PropTypes from "prop-types"; // Runtime type checking for React props and similar objects
-import headerStyle from "../styles/header.module.css";
+import headerStyle from "../styles/header.module.scss";
 
 const Header = () => {
 

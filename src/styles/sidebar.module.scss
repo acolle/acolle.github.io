@@ -1,14 +1,19 @@
 .container {
-  padding: 4.6rem 0.2rem;
-  width: 25vw;
+  padding: 2rem;
+  width: 20vw;
 
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #f6f9fc;
+  // background: linear-gradient(top, #185694 0%, #106cc8 100%);
+  // background-image: linear-gradient(160deg, darken($blue, 10%), lighten($blue, 10%), darken($blue, 10%));
+
+  border-right: 1px solid rgba(179, 198, 230, 0.6);
+  box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
 }
 
 .image {
-  width: 16vw;
   margin: 0;
 }
 
@@ -17,7 +22,6 @@
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
   Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   margin-top: 1.2rem;
-  width: 16vw;
 }
 
 .contact {
@@ -32,6 +36,14 @@
 .logo {
   width: 1.4em;
   margin: 0.6em 0.8em 0 0;
+}
+
+.show {
+  visibility: visible;
+}
+
+.hidden {
+  visibility: hidden;
 }
 
 @media only screen and (max-width: 480px) {

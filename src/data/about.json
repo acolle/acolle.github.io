@@ -187,7 +187,7 @@
     },
     {
       "name": "Loading Spinner",
-      "description": "A simple loading spinner implemented in React. The loading spinner is displayed once the client makes a request to the server which takes 4 seconds to complete. Once completed, the spinner disappear to show the response from the server",
+      "description": "A simple loading spinner implemented in React. The loading spinner is displayed once the client makes a request to the server which takes 4 seconds to complete. Once completed, the spinner disappears to show the response from the server",
       "tags": ["react", "animation", "express"],
       "urls": [
         { "name": "github", "value": "https://github.com/acolle/loading-spinner-react" },

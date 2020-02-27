@@ -623,23 +623,20 @@ pre tt:after {
   content: "";
 }
 
-/* Custom CSS */
+/* Custom CSS for Layout */
 .container {
   display: flex;
   width: 100vw;
-
 }
 
 .content {
   display: flex;
   flex-direction: column;
   width: 80vw;
+  & main {
+    margin: 1.2rem;
+  }
 }
-
-.content main {
-  padding: 0.6rem 2rem 0 0;
-}
-
 /* End Custom CSS */
 
 @media only screen and (max-width: 480px) {
