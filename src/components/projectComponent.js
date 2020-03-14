@@ -13,11 +13,11 @@ const ProjectComponent = ({ data }) => (
       <p>{data.description}</p>
     </div>
     <div className={projectStyle.urlContainer}>
-      {data.urls.map((url) => {
+      {data.urls.map((url, index) => {
         if (url.value !== '') {
-          return <a href={url.value} target="_blank" rel="noopener noreferrer"><img src={`/${url.name}.png`} alt={`${url.name}`} className={projectStyle.logo}/></a>
+          return <a key={index + 1} href={url.value} target="_blank" rel="noopener noreferrer"><img src={`/${url.name}.png`} alt={`${url.name}`} className={projectStyle.logo}/></a>
         } else {
-          return <span style={{display:'none'}}></span>
+          return <span key={index + 1} style={{display:'none'}}></span>
         }
       })}
     </div>

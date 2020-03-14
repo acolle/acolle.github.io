@@ -186,6 +186,15 @@
       ]
     },
     {
+      "name": "Form Validation Client Side",
+      "description": "A basic implementation of form validation on the client side using the two most common types: built-in form validation using HTML5 form validation features and JavaScript validation",
+      "tags": ["javascript", "html5", "form"],
+      "urls": [
+        { "name": "github", "value": "https://github.com/acolle/client-form-validation" },
+        { "name": "website", "value": "/projects/client-form-validation" }
+      ]
+    },
+    {
       "name": "Weather Forecast",
       "description": "A Node.js application built with Express that gives weather forecast. It uses the Mapbox API to get coordinates based on location and the Darksky API to provide the actual forecast based on latitude and longitude",
       "tags": ["node.js", "express", "hbs", "3rd Party API"],
@@ -202,14 +211,14 @@
         { "name": "github", "value": "https://github.com/acolle/loading-spinner-react" },
         { "name": "website", "value": "" }
       ]
-    }
-    ,
+    },
     {
       "name": "Virtual Rendering",
       "description": "A React implementation of Virtual Rendering to prevent slow and laggy scrolling of large lists. Virtual Rendering is implemented using react-virtualized and avatars are provided by DiceBear Avatars.",
       "tags": ["react"],
       "urls": [
-        { "name": "github", "value": "https://github.com/acolle/virtual-rendering-react" }
+        { "name": "github", "value": "https://github.com/acolle/virtual-rendering-react" },
+        { "name": "website", "value": "" }
       ]
     }
   ]
