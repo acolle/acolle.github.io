@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[8],{eedw:function(e,t,n){"use strict";n.r(t);var i=n("q1tI"),r=n.n(i);t.default=function(){return r.a.createElement("iframe",{title:"virtual-rendering",src:"/virtual-rendering/index.html",style:{width:"100vw",height:"100vh"}})}}}]);
+//# sourceMappingURL=component---src-pages-projects-virtual-rendering-js-eb9df6ebc0831d951ec0.js.map

@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{QHRp:function(e,t,n){"use strict";n.r(t);var a=n("q1tI"),l=n.n(a),r=n("Bl7J"),c=n("vrFN");t.default=function(){return l.a.createElement(r.a,null,l.a.createElement(c.a,{title:"Generative Art"}),l.a.createElement("h2",null,"Generative Art"),l.a.createElement("p",null,"Gallery"))}}}]);
-//# sourceMappingURL=component---src-pages-art-js-bd8d6e3b91e432e7f191.js.map
