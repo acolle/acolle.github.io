@@ -5,15 +5,18 @@ import headerStyle from "../styles/header.module.scss";
 
 const Header = () => {
 
-  const finished = false;
-
   return (
     <header>
       <div className={headerStyle.navBarContainer}>
-        <Link to="/" activeStyle={{ fontWeight: 600 }}>About</Link>
-        <Link to="/resume" activeStyle={{ fontWeight: 600 }}>Resume</Link>
-        <Link to="/projects" activeStyle={{ fontWeight: 600 }}>Projects</Link>
-        {finished && <Link to="/art" activeStyle={{ fontWeight: 600 }}>Generative Art</Link>}
+        <span className={headerStyle.navBarElementDeco + " " + headerStyle.hasBackgroundBlue}>
+          <Link to="/" activeStyle={{ fontWeight: 600 }}>About</Link>
+        </span>
+        <span className={headerStyle.navBarElementDeco + " " + headerStyle.hasBackgroundYellow}>
+          <Link to="/resume" activeStyle={{ fontWeight: 600 }}>Resume</Link>
+        </span>
+        <span className={headerStyle.navBarElementDeco + " " + headerStyle.hasBackgroundRed}>
+          <Link to="/projects" activeStyle={{ fontWeight: 600 }}>Projects</Link>
+        </span>
       </div>
     </header>
   )

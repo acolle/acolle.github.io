@@ -1,0 +1,28 @@
+.skillContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  margin-bottom: 0.8em;
+}
+
+.techLogo {
+  min-width: 10%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    width: 72px;
+    margin: 0.4em 0;
+  }
+}
+
+.description {
+  flex-grow: 1;
+}
+
+@media only screen and (max-width: 480px) {
+  .skillContainer {
+    flex-direction: column;
+  }
+}

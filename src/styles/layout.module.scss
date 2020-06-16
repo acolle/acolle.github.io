@@ -385,10 +385,10 @@ p {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  // margin-bottom: 1.45rem;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
   Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 figure {
   margin-left: 0;
@@ -633,9 +633,13 @@ pre tt:after {
   display: flex;
   flex-direction: column;
   width: 80vw;
-  & main {
-    margin: 1.2rem;
+  main {
+    margin: 1.2rem 3rem;
   }
+}
+
+.section {
+  margin-bottom: 1.45rem;
 }
 /* End Custom CSS */
 
@@ -658,5 +662,6 @@ pre tt:after {
 
   .content main {
     padding: 0;
+    margin: 1.2em 0.4em;
   }
 }

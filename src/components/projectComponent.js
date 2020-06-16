@@ -15,7 +15,7 @@ const ProjectComponent = ({ data }) => (
     <div className={projectStyle.urlContainer}>
       {data.urls.map((url, index) => {
         if (url.value !== '') {
-          return <a key={index + 1} href={url.value} target="_blank" rel="noopener noreferrer"><img src={`/${url.name}.png`} alt={`${url.name}`} className={projectStyle.logo}/></a>
+          return <a key={index + 1} href={url.value} target="_blank" rel="noopener noreferrer"><img src={`/icons/${url.name}.png`} alt={`${url.name}`} className={projectStyle.logo}/></a>
         } else {
           return <span key={index + 1} style={{display:'none'}}></span>
         }
