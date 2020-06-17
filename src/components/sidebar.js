@@ -31,7 +31,7 @@ const Sidebar = () => {
   return (
     <div className={sidebarStyle.container}>
       <div className={sidebarStyle.infoContainer}>
-        <img src="/img/portrait_.png" alt="self" className={sidebarStyle.image}/>
+        <img src="/img/portrait.jpg" alt="self" className={sidebarStyle.image}/>
         <div className={sidebarStyle.information}>
           <b>{data.dataJson.name}</b>
           <br/>
