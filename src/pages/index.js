@@ -9,7 +9,6 @@ const IndexPage = () => {
   const data = useStaticQuery(graphql`
     query {
       dataJson {
-        htmlTest
         profile
         skills {
           name
@@ -31,14 +30,14 @@ const IndexPage = () => {
         from DCU Business School.
       </p>
       <p>
-        In my spare time, I enjoy coding and making things.
+        I love coding and making things.
         I just released my first project <a href="https://socca.io" target="_blank" rel="noopener noreferrer">SOCCA</a>,
         a virtual café where people from all backgrounds and horizons can meet up for a few minutes to learn new things,
-        share ideas and challenge their beliefs.
+        share ideas and challenge their beliefs. Try it out and let me know what you think!
       </p>
       <p>
-        I picked up creative coding using tools like <a href="https://processing.org/" target="_blank" rel="noopener noreferrer">Processing</a> or <a href="https://p5js.org/" target="_blank" rel="noopener noreferrer">p5.js</a>.
-        You should check it out if you have never heard of them. You can make pretty cool stuff like what you can see below.
+        I also picked up creative coding using tools like <a href="https://processing.org/" target="_blank" rel="noopener noreferrer">Processing</a> or <a href="https://p5js.org/" target="_blank" rel="noopener noreferrer">p5.js</a>.
+        You can make pretty cool stuff like what you can see below.
         I'm currently learning <a href="https://threejs.org/" target="_blank" rel="noopener noreferrer">Three.js</a>,
         an amazing JavaScript library that uses WebGL under the hood to make animated 3D computer graphics directly in the browser.
       </p>
@@ -48,7 +47,7 @@ const IndexPage = () => {
       </div>
 
       <h4>Skills</h4>
-      <p>Here is an overview of the main technologies I enjoy using. The MERN stack would be my go-to stack for prototyping and developing, but I'm also comfortable with Java and I am always open to learn new technologies.</p>
+      <p>Here is an overview of the main technologies I enjoy using. The MERN stack would be my go-to stack for prototyping and developing, but I'm also comfortable with Java and I am always happy to learn new technologies.</p>
       {data.dataJson.skills.map((element, index) => (
         <SkillComponent key={index + 1} data={element}/>
       ))}

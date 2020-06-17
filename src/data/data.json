@@ -17,7 +17,6 @@
     "The MERN stack is my go-to stack for prototyping and developing. That stands for MongoDB, Express, React and Node. I also enjoy working with Java, RESTful APIs, relational databases with MySQL, Bash Scripting, Ansible, PL/SQL, Python, R and version control tool Git.",
     "On my spare time, I enjoy creative coding with tools like Processing or p5js, and I'm currently diving into C++ to be exposed to a lower level language, and get a better understanding of computer graphics."
   ],
-  "htmlTest": "<a href=\"https://www.w3schools.com\">Visit W3Schools.com!</a>",
   "skills": [
     {
       "name": "React.js",
@@ -41,33 +40,28 @@
     },
     {
       "name": "Java",
-      "description": "Worked on multiple projects using Servlets, advanced data structures, sorting and searching algorithms and RESTful APIs using JAX-RS and Hibernate for data persistence. Good fundamentals of Object-Oriented and algorithm design, problem solving & complexity analysis.",
+      "description": "Worked on multiple projects using Servlets, advanced data structures, sorting and searching algorithms and RESTful APIs using JAX-RS and Hibernate for data persistence. Good fundamentals of Object-Oriented and algorithm design, problem solving & complexity analysis. Would like to learn Java Spring Boot in the near future.",
       "icon": "java"
     },
     {
-      "name": "HTML5",
-      "description": "Great knowledge of the structure and workflow of websites and web applications. Thriving for good design, and ensuring fully responsiveness of the UI. Familiar with CSS animations, SCSS/SASS & BEM syntax.",
-      "icon": "html5"
+      "name": "HTML5 & CSS3",
+      "description": "Good knowledge of the DOM and how to manipulate it. Thriving for good design, and ensuring fully responsiveness of the UI. Familiar with CSS frameworks Bulma and Bootstrap, SCSS/SASS & BEM syntax.",
+      "icon": "htmlcss"
     },
     {
-      "name": "CSS3",
-      "description": "Thriving for good design, and ensuring fully responsiveness of the UI. Familiar with CSS frameworks Bulma and Bootstrap, SCSS/SASS & BEM syntax.",
-      "icon": "css3"
+      "name": "Linux OS & Bash Scripting",
+      "description": "Experienced setting up and administrating Linux servers, mostly Ubuntu and Red Hat distributions, managing users, setting up basic firewall with ufw, and Nginx web server as a reverse proxy and load balancer, running applications as services, setting up CRON jobs and writing shell scripts.",
+      "icon": "linux"
     },
     {
       "name": "Python",
-      "description": "Python was the fist language I learnt when I started programming. I used it mostly for Statistical Analysis and training Machine Learning models (regression, classification, & reinforcement).",
+      "description": "First language learnt when I started programming. Used mostly for Statistical Analysis and Machine Learning. Tried the Django and Flask web frameworks a few times.",
       "icon": "python"
     },
     {
       "name": "Angular",
       "description": "Exposed to Angular, having developed a few CRUD apps using the framework as part of a 10 weeks training at work. Integrated services, authentication guards and request interceptors.",
       "icon": "angular"
-    },
-    {
-      "name": "Linux OS & Bash Scripting",
-      "description": "Experience with setting up and administrating Linux servers, mostly Ubuntu and Red Hat distributions. Managing users, setting up basic firewall with ufw, and Nginx web server, running applications as services and writing shell scripts.",
-      "icon": "linux"
     },
     {
       "name": "RDBMS, SQL & PL/SQL",

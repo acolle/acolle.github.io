@@ -6,7 +6,7 @@ const skillComponent = ({ data }) => {
   return (
     <div className={skillStyle.skillContainer}>
       <div className={skillStyle.techLogo}>
-        <img src={`/icons/${data.icon}.svg`}/>
+        <img alt="skill-icon" src={`/icons/${data.icon}.svg`}/>
       </div>
       <div className={skillStyle.description}>
         <p><b>{data.name}</b> - {data.description}</p>
