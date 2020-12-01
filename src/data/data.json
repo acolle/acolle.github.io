@@ -1,7 +1,7 @@
 {
   "name": "Anthony Colle",
   "position": "Full Stack Developer",
-  "location": "Dublin",
+  "location": "Ireland",
   "social": {
     "email": {
       "address": "anthonycolle84@gmail.com",
@@ -13,7 +13,7 @@
     }
   },
   "profile": [
-    "I'm Anthony, a Software Developer born in France and living in Dublin for 4 years. I have a Higher Diploma in Computer Science in Software Development (1st Class Honours) from National College of Ireland, as well as a Master’s in Management (specialised in Digital Marketing) from DCU Business School. So in addition to my development skills, I'm also well-versed in everything related to Digital Marketing, including SEO, UX and Big Data analysis.",
+    "I'm Anthony, a Software Developer born in France and living in Ireland for 5 years. I have a Higher Diploma in Computer Science in Software Development (1st Class Honours) from National College of Ireland, as well as a Master’s in Management (specialised in Digital Marketing) from DCU Business School. So in addition to my development skills, I'm also well-versed in everything related to Digital Marketing, including SEO, UX and Big Data analysis.",
     "The MERN stack is my go-to stack for prototyping and developing. That stands for MongoDB, Express, React and Node. I also enjoy working with Java, RESTful APIs, relational databases with MySQL, Bash Scripting, Ansible, PL/SQL, Python, R and version control tool Git.",
     "On my spare time, I enjoy creative coding with tools like Processing or p5js, and I'm currently diving into C++ to be exposed to a lower level language, and get a better understanding of computer graphics."
   ],
@@ -127,9 +127,8 @@
       "year": "2019-Present",
       "location": "Dublin, Ireland",
       "functions": [
-        "Worked with Allied Irish Banks (AIB) as an ETL developer, mapping and validating data for regulatory reports on credit institutions to be submitted to the Central Bank of Ireland (CBI) and to the European Central Bank (ECB).",
-        "Designed and developed a React/Spring web application for Wipro Project Managers to monitor all ongoing projects with AIB.",
-        "Currently working as a SysAdmin / DevOps Engineer on AIB Linux servers, deploying new applications on them, and supporting them in case of failure."
+        "Designed and developed an internal web application for Project Managers to monitor all projects with Allied Irish Banks (AIB). Built with Java Spring and React for the UI, which was my responsibility.",
+        "Currently working as a System/Production Engineer on AIB internal and commercial applications, carrying out application and infrastructure upgrades."
       ]
     },
     {
@@ -169,7 +168,7 @@
     }
   ],
   "liveProjects": [{
-    "name": "SOCCA",
+    "name": "SOCCA (WIP)",
     "description": "A virtual café where people from all backgrounds and horizons can meet up for a few minutes to learn new things, share ideas and challenge their beliefs.",
     "tags": ["react", "node.js", "socket.io", "nongoDB", "redis"],
     "urls": [
@@ -228,10 +227,6 @@
       "urls": [{
           "name": "github",
           "value": "https://github.com/acolle/client-form-validation"
-        },
-        {
-          "name": "website",
-          "value": "/projects/client-form-validation"
         }
       ]
     },

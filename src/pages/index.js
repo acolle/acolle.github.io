@@ -24,7 +24,7 @@ const IndexPage = () => {
       <SEO title="About" />
       <h4>Hi there! <span role="img" aria-labelledby="hi">&#x1F44B;</span></h4>
       <p>
-        I'm Anthony, a Software Developer born in France and living in Dublin for 4 years.
+        I'm Anthony, a Software Developer born in France and living in Ireland for 5 years.
         Prior to completing a Higher Diploma in Computer Sciences (1st Class Honours)
         from National College of Ireland, I received a Master’s in Management (specialised in Digital Marketing)
         from DCU Business School.
